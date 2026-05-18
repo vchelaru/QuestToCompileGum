@@ -1,0 +1,104 @@
+{
+  "UserEvents": {
+    "d1638316d18f4a1e23a287aaaa12b6c540f704e257a6549bc9a672497ccc934e": [
+      {
+        "NewName": "TestScreen.RoundedRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-05-17T23:43:52.9468789Z"
+      },
+      {
+        "NewName": "TestScreen.ColoredCircleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-05-17T23:48:01.1998707Z"
+      },
+      {
+        "NewName": "TestScreen.ColoredCircleInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-05-17T23:49:25.8807565Z"
+      },
+      {
+        "NewName": "MainScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2026-05-18T19:08:46.822301Z"
+      },
+      {
+        "NewName": "MainScreen.ColoredCircleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-05-18T19:08:52.6693278Z"
+      },
+      {
+        "NewName": "MainScreen.ButtonInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-05-18T20:18:24.1506291Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainScreen.BubbleGumTheme/Controls/Button ButtonInstance in MainScreen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-05-18T20:19:47.590194Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainScreen.ColoredCircle ColoredCircleInstance in MainScreen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-05-18T20:36:38.8281064Z"
+      },
+      {
+        "NewName": "MainScreen.ItemsControlInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-05-18T20:38:02.0136151Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainScreen.BubbleGumTheme/Controls/ItemsControl ItemsControlInstance in MainScreen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-05-18T20:38:08.0980942Z"
+      },
+      {
+        "NewName": "MainScreen.ButtonInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-05-18T21:01:34.9666581Z"
+      },
+      {
+        "NewName": "BigButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-05-18T21:02:14.5922366Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "MainScreen.BubbleGumTheme/Controls/Button ButtonInstance in MainScreen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-05-18T21:02:50.5862963Z"
+      },
+      {
+        "NewName": "BigButton (BubbleGumTheme/Controls/Button).TextInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-05-18T21:05:14.3335584Z"
+      }
+    ]
+  }
+}

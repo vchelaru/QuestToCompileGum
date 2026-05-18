@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>QuestToCompileGum</RootNamespace>
+    <AssemblyName>QuestToCompileGum</AssemblyName>
+    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gum.Shapes.MonoGame" Version="2026.5.18.2-preview.2" />
+    <PackageReference Include="KernSmith.MonoGameGum" Version="0.13.0" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.4.1" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.4.1" />
+    <PackageReference Include="Gum.MonoGame" Version="2026.5.18.2-preview.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Content\GumProject\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

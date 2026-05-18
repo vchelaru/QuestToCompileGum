@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>QuestToCompileGum — Mockup</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  /* ───────────── Bubblegum tokens (from theme) ───────────── */
+  :root {
+    --bg:   #FFF0F9;
+    --s1:   #FFFFFF;
+    --bd:   #F0AACC;
+    --acc:  #FF6B9D;
+    --accl: #FFDEED;
+    --accd: #CC4475;
+    --txt:  #3D1155;
+    --mu:   #A07BB0;
+    --dis:  #CDAEDD;
+    --r:    8px;
+    --ff:   'Nunito', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: var(--ff);
+    color: var(--txt);
+    background: var(--bg);
+    /* subtle bubble pattern in background */
+    background-image:
+      radial-gradient(circle at 12% 22%, rgba(255,107,157,.10) 0, transparent 60px),
+      radial-gradient(circle at 88% 70%, rgba(255,107,157,.10) 0, transparent 80px),
+      radial-gradient(circle at 35% 85%, rgba(255,107,157,.08) 0, transparent 70px),
+      radial-gradient(circle at 70% 15%, rgba(255,107,157,.10) 0, transparent 50px);
+    overflow: hidden;
+  }
+
+  /* ───────────── Game viewport ───────────── */
+  .game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+  }
+
+  /* === LEFT CONTAINER (gameplay) ===================== */
+  .left {
+    flex: 1 1 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 32px;
+    position: relative;
+  }
+
+  .score-label {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    color: var(--mu);
+    margin-bottom: 4px;
+  }
+  .score {
+    font-size: 96px;
+    font-weight: 900;
+    color: var(--accd);
+    line-height: 1;
+    text-shadow: 0 4px 0 rgba(204,68,117,.15);
+    letter-spacing: -.02em;
+  }
+  .score .unit { font-size: 56px; color: var(--acc); margin-left: 4px; }
+
+  .score-sub {
+    font-size: 14px;
+    color: var(--mu);
+    margin-top: 12px;
+    font-weight: 600;
+  }
+  .score-sub b {
+    color: var(--accd);
+    font-weight: 900;
+  }
+
+  /* Big circular click button — centered in remaining space */
+  .big-btn-wrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+  .big-btn {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: linear-gradient(160deg, #FF8FB8 0%, var(--acc) 60%, var(--accd) 100%);
+    border: none;
+    color: #fff;
+    font-family: var(--ff);
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow:
+      0 14px 32px rgba(255,107,157,.45),
+      0 4px 0 var(--accd) inset,
+      0 -10px 24px rgba(255,255,255,.35) inset;
+    text-shadow: 0 2px 0 rgba(204,68,117,.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+  }
+  .big-btn::after {
+    content: "";
+    position: absolute;
+    top: 18px; left: 30px;
+    width: 70px; height: 30px;
+    background: rgba(255,255,255,.35);
+    border-radius: 50%;
+    filter: blur(4px);
+  }
+  .big-btn .sub { font-size: 13px; opacity: .85; font-weight: 700; letter-spacing: .1em; }
+
+  /* Floating "+N" effect, frozen mid-animation */
+  .floater {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--acc);
+    text-shadow: 0 2px 0 rgba(204,68,117,.3);
+    pointer-events: none;
+  }
+  .floater.f1 { top: 32%; left: 38%; opacity: .9; transform: translateY(0); }
+  .floater.f2 { top: 24%; left: 52%; opacity: .55; font-size: 26px; transform: translateY(-30px); }
+  .floater.f3 { top: 16%; left: 46%; opacity: .25; font-size: 22px; transform: translateY(-60px); }
+
+  /* === RIGHT CONTAINER (shop) ======================== */
+  .right {
+    flex: 1 1 50%;
+    height: 100%;
+    background: rgba(255,255,255,.55);
+    border-left: 2px solid var(--bd);
+    box-shadow: -8px 0 24px rgba(180,80,120,.08);
+    display: flex;
+    flex-direction: column;
+    padding: 48px 56px;
+    gap: 24px;
+    backdrop-filter: blur(2px);
+  }
+  .shop-header {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--acc);
+    border-bottom: 2px solid var(--bd);
+    padding-bottom: 16px;
+    margin-bottom: 4px;
+    letter-spacing: .01em;
+  }
+  .shop-header .badge {
+    margin-left: 12px;
+    font-size: 11px;
+    background: var(--accl);
+    color: var(--accd);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+  /* Upgrade button — taller, two-line, with cost row */
+  .upgrade-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    padding: 16px 22px;
+    background: var(--acc);
+    border: none;
+    border-radius: 18px;
+    color: #fff;
+    font-family: var(--ff);
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow:
+      0 4px 12px rgba(255,107,157,.4),
+      0 2px 0 var(--accd) inset;
+    text-align: left;
+  }
+  .upgrade-btn .row1 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .upgrade-btn .name {
+    font-size: 19px;
+    font-weight: 900;
+    letter-spacing: .01em;
+  }
+  .upgrade-btn .cost {
+    font-size: 15px;
+    background: rgba(255,255,255,.25);
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+  .upgrade-btn .row2 {
+    font-size: 12px;
+    opacity: .9;
+    font-weight: 600;
+  }
+
+  /* Affordability: CannotAfford */
+  .upgrade-btn.cannot {
+    background: var(--dis);
+    box-shadow: none;
+    color: rgba(255,255,255,.85);
+    cursor: not-allowed;
+  }
+  .upgrade-btn.cannot .cost {
+    background: rgba(0,0,0,.10);
+  }
+
+  /* === MOCKUP CHROME =================================
+     Tiny corner caption so reviewers know this is a static mockup.
+  */
+  .mockup-tag {
+    position: fixed;
+    bottom: 10px;
+    right: 12px;
+    font-size: 10px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--mu);
+    background: rgba(255,255,255,.65);
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px solid var(--bd);
+  }
+</style>
+</head>
+<body>
+
+<div class="game">
+
+  <!-- ──────── LEFT (gameplay) ──────── -->
+  <div class="left">
+    <div class="score-label">Score</div>
+    <div class="score">12,847</div>
+    <div class="score-sub">
+      <b>+5</b> per click &nbsp;&middot;&nbsp; <b>+12</b>/sec auto
+    </div>
+
+    <div class="big-btn-wrap">
+      <button class="big-btn">
+        CLICK
+        <span class="sub">+5 per tap</span>
+      </button>
+
+      <!-- frozen floating "+N" feedback -->
+      <div class="floater f1">+5</div>
+      <div class="floater f2">+5</div>
+      <div class="floater f3">+5</div>
+    </div>
+  </div>
+
+  <!-- ──────── RIGHT (shop) ──────── -->
+  <div class="right">
+    <div class="shop-header">Upgrades</div>
+
+    <!-- ClickUpgradeButton — affordable -->
+    <button class="upgrade-btn can">
+      <div class="row1">
+        <span class="name">Sharper Tools</span>
+        <span class="cost">Cost: 10</span>
+      </div>
+      <div class="row2">+1 per click</div>
+    </button>
+
+    <!-- AutoUpgradeButton — unaffordable -->
+    <button class="upgrade-btn cannot">
+      <div class="row1">
+        <span class="name">Robo-Clicker</span>
+        <span class="cost">Cost: 50K</span>
+      </div>
+      <div class="row2">+1 / sec automatic</div>
+    </button>
+
+  </div>
+
+</div>
+
+<div class="mockup-tag">Mockup &middot; not the real build</div>
+
+</body>
+</html>
