@@ -42,12 +42,12 @@
       <IsFile>false</IsFile>
       <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
       <Value>
-        <string>Red = Components/Styles.Black.Red</string>
-        <string>Green = Components/Styles.Black.Green</string>
-        <string>Blue = Components/Styles.Black.Blue</string>
-        <string>Font = Components/Styles.Strong.Font</string>
-        <string>FontSize = Components/Styles.Strong.FontSize</string>
-        <string>IsBold = Components/Styles.Strong.IsBold</string>
+        <string>Red = Components/BubbleGumTheme/Styles.Black.Red</string>
+        <string>Green = Components/BubbleGumTheme/Styles.Black.Green</string>
+        <string>Blue = Components/BubbleGumTheme/Styles.Black.Blue</string>
+        <string>Font = Components/BubbleGumTheme/Styles.Strong.Font</string>
+        <string>FontSize = Components/BubbleGumTheme/Styles.Strong.FontSize</string>
+        <string>IsBold = Components/BubbleGumTheme/Styles.Strong.IsBold</string>
       </Value>
     </VariableList>
   </State>

@@ -30,8 +30,6 @@ public class Game1 : Game
     {
         base.Initialize();
         GumUI.Initialize(this, "GumProject/GumProject.gumx");
-        GumUI.EnableHotReload(
-            "C:\\Users\\vchel\\Documents\\GitHub\\QuestToCompileGum\\src\\Finished\\QuestToCompileGum\\Content\\GumProject\\GumProject.gumx");
         ShapeRenderer.Self.Initialize();
         MainScreen mainScreen = new();
         mainScreen.AddToRoot();

@@ -6,7 +6,6 @@ using Gum.Wireframe;
 using GumRuntime;
 using MonoGameGum;
 using MonoGameGum.GueDeriving;
-using QuestToCompileGum.Components.BubbleGumTheme.Controls;
 using RenderingLibrary.Graphics;
 using System.Linq;
 namespace QuestToCompileGum.Screens;
@@ -37,7 +36,6 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
             return gue;
         });
     }
-    public Button ButtonInstance { get; protected set; }
 
     public MainScreen(InteractiveGue visual) : base(visual)
     {
@@ -51,7 +49,6 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     protected override void ReactToVisualChanged()
     {
         base.ReactToVisualChanged();
-        ButtonInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Button>(this.Visual,"ButtonInstance");
         CustomInitialize();
     }
     //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code

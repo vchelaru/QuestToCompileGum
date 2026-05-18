@@ -183,11 +183,11 @@
       <IsFile>false</IsFile>
       <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
       <Value>
-        <string>Red = Components/Styles.White.Red</string>
-        <string>Green = Components/Styles.White.Green</string>
-        <string>Blue = Components/Styles.White.Blue</string>
-        <string>Font = Components/Styles.Normal.Font</string>
-        <string>FontSize = Components/Styles.Normal.FontSize</string>
+        <string>Red = Components/BubbleGumTheme/Styles.White.Red</string>
+        <string>Green = Components/BubbleGumTheme/Styles.White.Green</string>
+        <string>Blue = Components/BubbleGumTheme/Styles.White.Blue</string>
+        <string>Font = Components/BubbleGumTheme/Styles.Normal.Font</string>
+        <string>FontSize = Components/BubbleGumTheme/Styles.Normal.FontSize</string>
       </Value>
     </VariableList>
   </State>
