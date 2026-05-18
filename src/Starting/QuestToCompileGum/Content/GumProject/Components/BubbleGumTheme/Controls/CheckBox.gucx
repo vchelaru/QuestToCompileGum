@@ -333,11 +333,11 @@
       <IsFile>false</IsFile>
       <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
       <Value>
-        <string>Red = Components/Styles.Black.Red</string>
-        <string>Green = Components/Styles.Black.Green</string>
-        <string>Blue = Components/Styles.Black.Blue</string>
-        <string>Font = Components/Styles.Normal.Font</string>
-        <string>FontSize = Components/Styles.Normal.FontSize</string>
+        <string>Red = Components/BubbleGumTheme/Styles.Black.Red</string>
+        <string>Green = Components/BubbleGumTheme/Styles.Black.Green</string>
+        <string>Blue = Components/BubbleGumTheme/Styles.Black.Blue</string>
+        <string>Font = Components/BubbleGumTheme/Styles.Normal.Font</string>
+        <string>FontSize = Components/BubbleGumTheme/Styles.Normal.FontSize</string>
       </Value>
     </VariableList>
   </State>

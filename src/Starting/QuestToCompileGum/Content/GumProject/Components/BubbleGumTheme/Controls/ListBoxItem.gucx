@@ -124,8 +124,8 @@
       <IsFile>false</IsFile>
       <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
       <Value>
-        <string>Font = Components/Styles.Normal.Font</string>
-        <string>FontSize = Components/Styles.Normal.FontSize</string>
+        <string>Font = Components/BubbleGumTheme/Styles.Normal.Font</string>
+        <string>FontSize = Components/BubbleGumTheme/Styles.Normal.FontSize</string>
       </Value>
     </VariableList>
   </State>
