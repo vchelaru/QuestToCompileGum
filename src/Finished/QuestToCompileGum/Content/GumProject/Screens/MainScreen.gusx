@@ -33,15 +33,11 @@
     <Variable Type="string" Name="BigButton.ButtonCategoryState" SetsValue="true">
       <Value xsi:type="xsd:string">Enabled</Value>
     </Variable>
-    <Variable Type="float" Name="BigButton.Height" SetsValue="true">
-      <Value xsi:type="xsd:float">96</Value>
-    </Variable>
     <Variable Type="string" Name="BigButton.Parent" SetsValue="true">
       <Value xsi:type="xsd:string">LeftSidePanel</Value>
     </Variable>
     <Variable Type="string" Name="BigButton.Text" SetsValue="true">
-      <Value xsi:type="xsd:string">Click
-+5 PER TAP</Value>
+      <Value xsi:type="xsd:string">Click</Value>
     </Variable>
     <Variable Type="float" Name="BigButton.X" SetsValue="true">
       <Value xsi:type="xsd:float">0</Value>
@@ -588,7 +584,7 @@
   <Instance Name="UpgradeStack" BaseType="Container" />
   <Instance Name="LeftBackground" BaseType="RoundedRectangle" />
   <Instance Name="Divider" BaseType="ColoredRectangle" />
-  <Instance Name="BigButton" BaseType="BubbleGumTheme/Controls/Button" />
+  <Instance Name="BigButton" BaseType="BigButton" />
   <Instance Name="ScoreValue" BaseType="BubbleGumTheme/Controls/Label" />
   <Instance Name="ScoreSubtext" BaseType="BubbleGumTheme/Controls/Label" />
   <Instance Name="ScoreContainer" BaseType="Container" />

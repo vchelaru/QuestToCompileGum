@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComponentSave xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>FloatingLabel</Name>
+  <BaseType>BubbleGumTheme/Controls/Label</BaseType>
+  <State>
+    <Name>Default</Name>
+    <Variable Type="State" Name="State" Category="States and Visibility" SetsValue="false">
+      <Value xsi:type="xsd:string">Default</Value>
+    </Variable>
+    <Variable Type="TextCategory" Name="TextCategoryState" SetsValue="true">
+      <Value xsi:type="xsd:string">H1</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+  </State>
+  <Behaviors />
+</ComponentSave>

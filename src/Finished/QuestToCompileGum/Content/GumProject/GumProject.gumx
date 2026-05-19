@@ -54,6 +54,7 @@
   <ShowLocalizationInGum>true</ShowLocalizationInGum>
   <CurrentLanguageIndex>0</CurrentLanguageIndex>
   <ScreenReference Name="MainScreen" />
+  <ComponentReference Name="BigButton" />
   <ComponentReference Name="BubbleGumTheme/Controls/Button" />
   <ComponentReference Name="BubbleGumTheme/Controls/ButtonIcon" />
   <ComponentReference Name="BubbleGumTheme/Controls/CheckBox" />
@@ -79,6 +80,7 @@
   <ComponentReference Name="BubbleGumTheme/Controls/UserControl" />
   <ComponentReference Name="BubbleGumTheme/Controls/Window" />
   <ComponentReference Name="BubbleGumTheme/Styles" />
+  <ComponentReference Name="FloatingLabel" />
   <ComponentReference Name="UpgradeButton" />
   <StandardElementReference Name="Arc" />
   <StandardElementReference Name="Canvas" />

@@ -47,7 +47,7 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     public ContainerRuntime UpgradeStack { get; protected set; }
     public RoundedRectangleRuntime LeftBackground { get; protected set; }
     public ColoredRectangleRuntime Divider { get; protected set; }
-    public Button BigButton { get; protected set; }
+    public BigButton BigButton { get; protected set; }
     public Label ScoreValue { get; protected set; }
     public Label ScoreSubtext { get; protected set; }
     public ContainerRuntime ScoreContainer { get; protected set; }
@@ -75,7 +75,7 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
         UpgradeStack = this.Visual?.GetGraphicalUiElementByName("UpgradeStack") as global::MonoGameGum.GueDeriving.ContainerRuntime;
         LeftBackground = this.Visual?.GetGraphicalUiElementByName("LeftBackground") as global::MonoGameGum.GueDeriving.RoundedRectangleRuntime;
         Divider = this.Visual?.GetGraphicalUiElementByName("Divider") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
-        BigButton = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Button>(this.Visual,"BigButton");
+        BigButton = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<BigButton>(this.Visual,"BigButton");
         ScoreValue = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"ScoreValue");
         ScoreSubtext = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"ScoreSubtext");
         ScoreContainer = this.Visual?.GetGraphicalUiElementByName("ScoreContainer") as global::MonoGameGum.GueDeriving.ContainerRuntime;
