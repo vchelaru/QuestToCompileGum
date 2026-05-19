@@ -33,6 +33,21 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
             return gue;
         });
     }
+    public Label CostTextInstance { get; protected set; }
+    public Label SubTextInstance { get; protected set; }
+    public RoundedRectangleRuntime RoundedRectangleInstance { get; protected set; }
+
+    public string CostText
+    {
+        get => CostTextInstance.Text;
+        set => CostTextInstance.Text = value;
+    }
+
+    public string SubText
+    {
+        get => SubTextInstance.Text;
+        set => SubTextInstance.Text = value;
+    }
 
     public UpgradeButton(InteractiveGue visual) : base(visual)
     {
@@ -46,6 +61,9 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     protected override void ReactToVisualChanged()
     {
         base.ReactToVisualChanged();
+        CostTextInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"CostTextInstance");
+        SubTextInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"SubTextInstance");
+        RoundedRectangleInstance = this.Visual?.GetGraphicalUiElementByName("RoundedRectangleInstance") as global::MonoGameGum.GueDeriving.RoundedRectangleRuntime;
         CustomInitialize();
     }
     //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code

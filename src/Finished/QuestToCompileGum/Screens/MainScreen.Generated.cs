@@ -6,6 +6,7 @@ using Gum.Wireframe;
 using GumRuntime;
 using MonoGameGum;
 using MonoGameGum.GueDeriving;
+using QuestToCompileGum.Components;
 using QuestToCompileGum.Components.BubbleGumTheme.Controls;
 using RenderingLibrary.Graphics;
 using System.Linq;
@@ -37,10 +38,15 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
             return gue;
         });
     }
+    public ColoredRectangleRuntime ColoredRectangleInstance1 { get; protected set; }
     public Label LabelInstance3 { get; protected set; }
     public ColoredRectangleRuntime ColoredRectangleInstance { get; protected set; }
+    public UpgradeButton UpgradeClickButton { get; protected set; }
+    public UpgradeButton AutoClickButton { get; protected set; }
     public Label LabelInstance { get; protected set; }
     public ContainerRuntime ContainerInstance1 { get; protected set; }
+    public RoundedRectangleRuntime RoundedRectangleInstance { get; protected set; }
+    public ColoredRectangleRuntime ColoredRectangleInstance2 { get; protected set; }
     public Button ButtonInstance { get; protected set; }
     public Label LabelInstance1 { get; protected set; }
     public Label LabelInstance2 { get; protected set; }
@@ -60,10 +66,15 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     protected override void ReactToVisualChanged()
     {
         base.ReactToVisualChanged();
+        ColoredRectangleInstance1 = this.Visual?.GetGraphicalUiElementByName("ColoredRectangleInstance1") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
         LabelInstance3 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance3");
         ColoredRectangleInstance = this.Visual?.GetGraphicalUiElementByName("ColoredRectangleInstance") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
+        UpgradeClickButton = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<UpgradeButton>(this.Visual,"UpgradeClickButton");
+        AutoClickButton = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<UpgradeButton>(this.Visual,"AutoClickButton");
         LabelInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance");
         ContainerInstance1 = this.Visual?.GetGraphicalUiElementByName("ContainerInstance1") as global::MonoGameGum.GueDeriving.ContainerRuntime;
+        RoundedRectangleInstance = this.Visual?.GetGraphicalUiElementByName("RoundedRectangleInstance") as global::MonoGameGum.GueDeriving.RoundedRectangleRuntime;
+        ColoredRectangleInstance2 = this.Visual?.GetGraphicalUiElementByName("ColoredRectangleInstance2") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
         ButtonInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Button>(this.Visual,"ButtonInstance");
         LabelInstance1 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance1");
         LabelInstance2 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance2");

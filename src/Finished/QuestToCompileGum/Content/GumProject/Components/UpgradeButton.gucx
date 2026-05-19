@@ -4,20 +4,179 @@
   <BaseType>BubbleGumTheme/Controls/Button</BaseType>
   <State>
     <Name>Default</Name>
+    <Variable Type="int" Name="CostTextInstance.Blue" SetsValue="true">
+      <Value xsi:type="xsd:int">255</Value>
+    </Variable>
+    <Variable IsFont="true" Type="string" Name="CostTextInstance.Font" SetsValue="true">
+      <Value xsi:type="xsd:string">Nunito</Value>
+    </Variable>
+    <Variable Type="int" Name="CostTextInstance.Green" SetsValue="true">
+      <Value xsi:type="xsd:int">255</Value>
+    </Variable>
+    <Variable Type="float" Name="CostTextInstance.Height" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="CostTextInstance.HeightUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">4</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="CostTextInstance.HorizontalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="bool" Name="CostTextInstance.IsBold" SetsValue="true">
+      <Value xsi:type="xsd:boolean">true</Value>
+    </Variable>
+    <Variable Type="string" Name="CostTextInstance.Parent" SetsValue="true">
+      <Value xsi:type="xsd:string">RoundedRectangleInstance</Value>
+    </Variable>
+    <Variable Type="int" Name="CostTextInstance.Red" SetsValue="true">
+      <Value xsi:type="xsd:int">255</Value>
+    </Variable>
+    <Variable Type="string" Name="CostTextInstance.Text" ExposedAsName="CostText" SetsValue="true">
+      <Value xsi:type="xsd:string">+whatever bonus</Value>
+    </Variable>
+    <Variable Type="TextCategory" Name="CostTextInstance.TextCategoryState" SetsValue="true">
+      <Value xsi:type="xsd:string">Strong</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="CostTextInstance.VerticalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="float" Name="CostTextInstance.Width" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="CostTextInstance.WidthUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">4</Value>
+    </Variable>
+    <Variable Type="float" Name="CostTextInstance.X" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="CostTextInstance.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="CostTextInstance.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">6</Value>
+    </Variable>
+    <Variable Type="float" Name="CostTextInstance.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">-2</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="CostTextInstance.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="CostTextInstance.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">7</Value>
+    </Variable>
     <Variable Type="float" Name="Height" SetsValue="true">
-      <Value xsi:type="xsd:float">47</Value>
+      <Value xsi:type="xsd:float">22</Value>
+    </Variable>
+    <Variable Type="int" Name="RoundedRectangleInstance.Alpha" SetsValue="true">
+      <Value xsi:type="xsd:int">56</Value>
+    </Variable>
+    <Variable Type="int" Name="RoundedRectangleInstance.Blue" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="RoundedRectangleInstance.CornerRadius" SetsValue="true">
+      <Value xsi:type="xsd:float">9</Value>
+    </Variable>
+    <Variable Type="int" Name="RoundedRectangleInstance.Green" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="RoundedRectangleInstance.Height" SetsValue="true">
+      <Value xsi:type="xsd:float">5</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="RoundedRectangleInstance.HeightUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">4</Value>
+    </Variable>
+    <Variable Type="int" Name="RoundedRectangleInstance.Red" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="RoundedRectangleInstance.Width" SetsValue="true">
+      <Value xsi:type="xsd:float">12</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="RoundedRectangleInstance.WidthUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">4</Value>
+    </Variable>
+    <Variable Type="float" Name="RoundedRectangleInstance.X" SetsValue="true">
+      <Value xsi:type="xsd:float">-23</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="RoundedRectangleInstance.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="RoundedRectangleInstance.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">4</Value>
+    </Variable>
+    <Variable Type="float" Name="RoundedRectangleInstance.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">9</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="RoundedRectangleInstance.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="RoundedRectangleInstance.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
     </Variable>
     <Variable Type="State" Name="State" Category="States and Visibility" SetsValue="false">
       <Value xsi:type="xsd:string">Default</Value>
+    </Variable>
+    <Variable Type="int" Name="SubTextInstance.Blue" SetsValue="true">
+      <Value xsi:type="xsd:int">255</Value>
+    </Variable>
+    <Variable IsFont="true" Type="string" Name="SubTextInstance.Font" SetsValue="true">
+      <Value xsi:type="xsd:string">Nunito</Value>
+    </Variable>
+    <Variable Type="int" Name="SubTextInstance.Green" SetsValue="true">
+      <Value xsi:type="xsd:int">255</Value>
+    </Variable>
+    <Variable Type="float" Name="SubTextInstance.Height" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="SubTextInstance.HeightUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">4</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="SubTextInstance.HorizontalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="bool" Name="SubTextInstance.IsBold" SetsValue="true">
+      <Value xsi:type="xsd:boolean">true</Value>
+    </Variable>
+    <Variable Type="int" Name="SubTextInstance.Red" SetsValue="true">
+      <Value xsi:type="xsd:int">255</Value>
+    </Variable>
+    <Variable Type="string" Name="SubTextInstance.Text" ExposedAsName="SubText" SetsValue="true">
+      <Value xsi:type="xsd:string">+whatever bonus</Value>
+    </Variable>
+    <Variable Type="TextCategory" Name="SubTextInstance.TextCategoryState" SetsValue="true">
+      <Value xsi:type="xsd:string">Strong</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="SubTextInstance.VerticalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="SubTextInstance.Width" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="SubTextInstance.WidthUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">4</Value>
+    </Variable>
+    <Variable Type="float" Name="SubTextInstance.X" SetsValue="true">
+      <Value xsi:type="xsd:float">22</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="SubTextInstance.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="SubTextInstance.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="SubTextInstance.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">62</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="SubTextInstance.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="SubTextInstance.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
     </Variable>
     <Variable Type="int" Name="TextInstance.Blue" SetsValue="true">
       <Value xsi:type="xsd:int">255</Value>
     </Variable>
     <Variable IsFont="true" Type="string" Name="TextInstance.Font" SetsValue="true">
       <Value xsi:type="xsd:string">Nunito</Value>
-    </Variable>
-    <Variable Type="int" Name="TextInstance.FontSize" SetsValue="true">
-      <Value xsi:type="xsd:int">14</Value>
     </Variable>
     <Variable Type="int" Name="TextInstance.Green" SetsValue="true">
       <Value xsi:type="xsd:int">255</Value>
@@ -38,7 +197,7 @@
       <Value xsi:type="xsd:int">255</Value>
     </Variable>
     <Variable Type="TextCategory" Name="TextInstance.TextCategoryState" SetsValue="true">
-      <Value xsi:type="xsd:string">H2</Value>
+      <Value xsi:type="xsd:string">Title</Value>
     </Variable>
     <Variable Type="VerticalAlignment" Name="TextInstance.VerticalAlignment" SetsValue="true">
       <Value xsi:type="xsd:int">0</Value>
@@ -71,8 +230,11 @@
       <Value xsi:type="xsd:float">477</Value>
     </Variable>
   </State>
+  <Instance Name="CostTextInstance" BaseType="BubbleGumTheme/Controls/Label" />
   <Instance Name="Background" BaseType="RoundedRectangle" DefinedByBase="true" />
   <Instance Name="TextInstance" BaseType="BubbleGumTheme/Controls/Label" DefinedByBase="true" />
+  <Instance Name="SubTextInstance" BaseType="BubbleGumTheme/Controls/Label" />
   <Instance Name="FocusedIndicator" BaseType="RoundedRectangle" DefinedByBase="true" />
+  <Instance Name="RoundedRectangleInstance" BaseType="RoundedRectangle" />
   <Behaviors />
 </ComponentSave>
