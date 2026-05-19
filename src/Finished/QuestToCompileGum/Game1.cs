@@ -24,6 +24,14 @@ public class Game1 : Game
             graphics.GraphicsProfile = GraphicsProfile.HiDef;
         IsMouseVisible = true;
         Window.AllowUserResizing = true;
+
+        Window.ClientSizeChanged += HandleWindowSizeChanged;
+    }
+
+    private void HandleWindowSizeChanged(object sender, EventArgs e)
+    {
+        GumUI.CanvasWidth = Window.ClientBounds.Width;
+        GumUI.CanvasHeight = Window.ClientBounds.Height;
     }
 
     protected override void Initialize()
