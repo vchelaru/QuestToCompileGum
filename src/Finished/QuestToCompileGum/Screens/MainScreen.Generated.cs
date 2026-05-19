@@ -6,6 +6,7 @@ using Gum.Wireframe;
 using GumRuntime;
 using MonoGameGum;
 using MonoGameGum.GueDeriving;
+using QuestToCompileGum.Components.BubbleGumTheme.Controls;
 using RenderingLibrary.Graphics;
 using System.Linq;
 namespace QuestToCompileGum.Screens;
@@ -36,6 +37,16 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
             return gue;
         });
     }
+    public Label LabelInstance3 { get; protected set; }
+    public ColoredRectangleRuntime ColoredRectangleInstance { get; protected set; }
+    public Label LabelInstance { get; protected set; }
+    public ContainerRuntime ContainerInstance1 { get; protected set; }
+    public Button ButtonInstance { get; protected set; }
+    public Label LabelInstance1 { get; protected set; }
+    public Label LabelInstance2 { get; protected set; }
+    public ContainerRuntime ContainerInstance { get; protected set; }
+    public ContainerRuntime LeftSidePanel { get; protected set; }
+    public ContainerRuntime RightSidePanel { get; protected set; }
 
     public MainScreen(InteractiveGue visual) : base(visual)
     {
@@ -49,6 +60,16 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     protected override void ReactToVisualChanged()
     {
         base.ReactToVisualChanged();
+        LabelInstance3 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance3");
+        ColoredRectangleInstance = this.Visual?.GetGraphicalUiElementByName("ColoredRectangleInstance") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
+        LabelInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance");
+        ContainerInstance1 = this.Visual?.GetGraphicalUiElementByName("ContainerInstance1") as global::MonoGameGum.GueDeriving.ContainerRuntime;
+        ButtonInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Button>(this.Visual,"ButtonInstance");
+        LabelInstance1 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance1");
+        LabelInstance2 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance2");
+        ContainerInstance = this.Visual?.GetGraphicalUiElementByName("ContainerInstance") as global::MonoGameGum.GueDeriving.ContainerRuntime;
+        LeftSidePanel = this.Visual?.GetGraphicalUiElementByName("LeftSidePanel") as global::MonoGameGum.GueDeriving.ContainerRuntime;
+        RightSidePanel = this.Visual?.GetGraphicalUiElementByName("RightSidePanel") as global::MonoGameGum.GueDeriving.ContainerRuntime;
         CustomInitialize();
     }
     //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code

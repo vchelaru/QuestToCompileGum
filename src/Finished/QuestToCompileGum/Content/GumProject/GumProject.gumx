@@ -79,6 +79,7 @@
   <ComponentReference Name="BubbleGumTheme/Controls/UserControl" />
   <ComponentReference Name="BubbleGumTheme/Controls/Window" />
   <ComponentReference Name="BubbleGumTheme/Styles" />
+  <ComponentReference Name="UpgradeButton" />
   <StandardElementReference Name="Arc" />
   <StandardElementReference Name="Canvas" />
   <StandardElementReference Name="Circle" />
