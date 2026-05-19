@@ -7,7 +7,7 @@
       <Value xsi:type="xsd:string">Cost: 50K</Value>
     </Variable>
     <Variable Type="string" Name="AutoClickButton.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">ContainerInstance1</Value>
+      <Value xsi:type="xsd:string">UpgradeStack</Value>
     </Variable>
     <Variable Type="string" Name="AutoClickButton.SubText" SetsValue="true">
       <Value xsi:type="xsd:string">+1 per sec</Value>
@@ -30,372 +30,147 @@
     <Variable Type="PositionUnitType" Name="AutoClickButton.XUnits" SetsValue="true">
       <Value xsi:type="xsd:int">6</Value>
     </Variable>
-    <Variable Type="string" Name="ButtonInstance.ButtonCategoryState" SetsValue="true">
+    <Variable Type="string" Name="BigButton.ButtonCategoryState" SetsValue="true">
       <Value xsi:type="xsd:string">Enabled</Value>
     </Variable>
-    <Variable Type="float" Name="ButtonInstance.Height" SetsValue="true">
+    <Variable Type="float" Name="BigButton.Height" SetsValue="true">
       <Value xsi:type="xsd:float">96</Value>
     </Variable>
-    <Variable Type="string" Name="ButtonInstance.Parent" SetsValue="true">
+    <Variable Type="string" Name="BigButton.Parent" SetsValue="true">
       <Value xsi:type="xsd:string">LeftSidePanel</Value>
     </Variable>
-    <Variable Type="string" Name="ButtonInstance.Text" SetsValue="true">
+    <Variable Type="string" Name="BigButton.Text" SetsValue="true">
       <Value xsi:type="xsd:string">Click
 +5 PER TAP</Value>
     </Variable>
-    <Variable Type="float" Name="ButtonInstance.X" SetsValue="true">
+    <Variable Type="float" Name="BigButton.X" SetsValue="true">
       <Value xsi:type="xsd:float">0</Value>
     </Variable>
-    <Variable Type="HorizontalAlignment" Name="ButtonInstance.XOrigin" SetsValue="true">
+    <Variable Type="HorizontalAlignment" Name="BigButton.XOrigin" SetsValue="true">
       <Value xsi:type="xsd:int">1</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="ButtonInstance.XUnits" SetsValue="true">
+    <Variable Type="PositionUnitType" Name="BigButton.XUnits" SetsValue="true">
       <Value xsi:type="xsd:int">6</Value>
     </Variable>
-    <Variable Type="float" Name="ButtonInstance.Y" SetsValue="true">
+    <Variable Type="float" Name="BigButton.Y" SetsValue="true">
       <Value xsi:type="xsd:float">51</Value>
     </Variable>
-    <Variable Type="VerticalAlignment" Name="ButtonInstance.YOrigin" SetsValue="true">
+    <Variable Type="VerticalAlignment" Name="BigButton.YOrigin" SetsValue="true">
       <Value xsi:type="xsd:int">1</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="ButtonInstance.YUnits" SetsValue="true">
+    <Variable Type="PositionUnitType" Name="BigButton.YUnits" SetsValue="true">
       <Value xsi:type="xsd:int">7</Value>
     </Variable>
-    <Variable Type="int" Name="ColoredRectangleInstance.Blue" SetsValue="true">
+    <Variable Type="int" Name="Divider.Blue" SetsValue="true">
       <Value xsi:type="xsd:int">204</Value>
     </Variable>
-    <Variable Type="int" Name="ColoredRectangleInstance.Green" SetsValue="true">
+    <Variable Type="int" Name="Divider.Green" SetsValue="true">
       <Value xsi:type="xsd:int">170</Value>
     </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance.Height" SetsValue="true">
-      <Value xsi:type="xsd:float">2</Value>
-    </Variable>
-    <Variable Type="string" Name="ColoredRectangleInstance.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">ContainerInstance1</Value>
-    </Variable>
-    <Variable Type="int" Name="ColoredRectangleInstance.Red" SetsValue="true">
-      <Value xsi:type="xsd:int">240</Value>
-    </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance.Width" SetsValue="true">
+    <Variable Type="float" Name="Divider.Height" SetsValue="true">
       <Value xsi:type="xsd:float">-0</Value>
     </Variable>
-    <Variable Type="DimensionUnitType" Name="ColoredRectangleInstance.WidthUnits" SetsValue="true">
+    <Variable Type="DimensionUnitType" Name="Divider.HeightUnits" SetsValue="true">
       <Value xsi:type="xsd:int">2</Value>
     </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance.X" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="ColoredRectangleInstance.XOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="ColoredRectangleInstance.XUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">6</Value>
-    </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance1.Height" SetsValue="true">
-      <Value xsi:type="xsd:float">-0</Value>
-    </Variable>
-    <Variable Type="DimensionUnitType" Name="ColoredRectangleInstance1.HeightUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">2</Value>
-    </Variable>
-    <Variable Type="string" Name="ColoredRectangleInstance1.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">RightSidePanel</Value>
-    </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance1.Width" SetsValue="true">
-      <Value xsi:type="xsd:float">-0</Value>
-    </Variable>
-    <Variable Type="DimensionUnitType" Name="ColoredRectangleInstance1.WidthUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">2</Value>
-    </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance1.X" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="ColoredRectangleInstance1.XOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="ColoredRectangleInstance1.XUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">6</Value>
-    </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance1.Y" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="ColoredRectangleInstance1.YOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="ColoredRectangleInstance1.YUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">7</Value>
-    </Variable>
-    <Variable Type="int" Name="ColoredRectangleInstance2.Blue" SetsValue="true">
-      <Value xsi:type="xsd:int">204</Value>
-    </Variable>
-    <Variable Type="int" Name="ColoredRectangleInstance2.Green" SetsValue="true">
-      <Value xsi:type="xsd:int">170</Value>
-    </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance2.Height" SetsValue="true">
-      <Value xsi:type="xsd:float">-0</Value>
-    </Variable>
-    <Variable Type="DimensionUnitType" Name="ColoredRectangleInstance2.HeightUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">2</Value>
-    </Variable>
-    <Variable Type="string" Name="ColoredRectangleInstance2.Parent" SetsValue="true">
+    <Variable Type="string" Name="Divider.Parent" SetsValue="true">
       <Value xsi:type="xsd:string">LeftSidePanel</Value>
     </Variable>
-    <Variable Type="int" Name="ColoredRectangleInstance2.Red" SetsValue="true">
+    <Variable Type="int" Name="Divider.Red" SetsValue="true">
       <Value xsi:type="xsd:int">240</Value>
     </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance2.Width" SetsValue="true">
+    <Variable Type="float" Name="Divider.Width" SetsValue="true">
       <Value xsi:type="xsd:float">2</Value>
     </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance2.X" SetsValue="true">
+    <Variable Type="float" Name="Divider.X" SetsValue="true">
       <Value xsi:type="xsd:float">0</Value>
     </Variable>
-    <Variable Type="HorizontalAlignment" Name="ColoredRectangleInstance2.XOrigin" SetsValue="true">
+    <Variable Type="HorizontalAlignment" Name="Divider.XOrigin" SetsValue="true">
       <Value xsi:type="xsd:int">2</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="ColoredRectangleInstance2.XUnits" SetsValue="true">
+    <Variable Type="PositionUnitType" Name="Divider.XUnits" SetsValue="true">
       <Value xsi:type="xsd:int">4</Value>
     </Variable>
-    <Variable Type="float" Name="ColoredRectangleInstance2.Y" SetsValue="true">
+    <Variable Type="float" Name="Divider.Y" SetsValue="true">
       <Value xsi:type="xsd:float">0</Value>
     </Variable>
-    <Variable Type="VerticalAlignment" Name="ColoredRectangleInstance2.YOrigin" SetsValue="true">
+    <Variable Type="VerticalAlignment" Name="Divider.YOrigin" SetsValue="true">
       <Value xsi:type="xsd:int">1</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="ColoredRectangleInstance2.YUnits" SetsValue="true">
+    <Variable Type="PositionUnitType" Name="Divider.YUnits" SetsValue="true">
       <Value xsi:type="xsd:int">7</Value>
     </Variable>
-    <Variable Type="ChildrenLayout" Name="ContainerInstance.ChildrenLayout" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
+    <Variable Type="int" Name="LeftBackground.Blue1" SetsValue="true">
+      <Value xsi:type="xsd:int">241</Value>
     </Variable>
-    <Variable Type="float" Name="ContainerInstance.Height" SetsValue="true">
-      <Value xsi:type="xsd:float">103</Value>
+    <Variable Type="int" Name="LeftBackground.Blue2" SetsValue="true">
+      <Value xsi:type="xsd:int">249</Value>
     </Variable>
-    <Variable Type="string" Name="ContainerInstance.Parent" SetsValue="true">
+    <Variable Type="float" Name="LeftBackground.CornerRadius" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="float" Name="LeftBackground.GradientX1" SetsValue="true">
+      <Value xsi:type="xsd:float">100</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="LeftBackground.GradientX1Units" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="float" Name="LeftBackground.GradientX2" SetsValue="true">
+      <Value xsi:type="xsd:float">80</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="LeftBackground.GradientX2Units" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="float" Name="LeftBackground.GradientY2" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="int" Name="LeftBackground.Green1" SetsValue="true">
+      <Value xsi:type="xsd:int">231</Value>
+    </Variable>
+    <Variable Type="int" Name="LeftBackground.Green2" SetsValue="true">
+      <Value xsi:type="xsd:int">240</Value>
+    </Variable>
+    <Variable Type="float" Name="LeftBackground.Height" SetsValue="true">
+      <Value xsi:type="xsd:float">-0</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="LeftBackground.HeightUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="string" Name="LeftBackground.Parent" SetsValue="true">
       <Value xsi:type="xsd:string">LeftSidePanel</Value>
     </Variable>
-    <Variable Type="float" Name="ContainerInstance.Width" SetsValue="true">
-      <Value xsi:type="xsd:float">270</Value>
+    <Variable Type="int" Name="LeftBackground.Red1" SetsValue="true">
+      <Value xsi:type="xsd:int">251</Value>
     </Variable>
-    <Variable Type="float" Name="ContainerInstance.X" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
+    <Variable Type="int" Name="LeftBackground.Red2" SetsValue="true">
+      <Value xsi:type="xsd:int">255</Value>
     </Variable>
-    <Variable Type="HorizontalAlignment" Name="ContainerInstance.XOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
+    <Variable Type="bool" Name="LeftBackground.UseGradient" SetsValue="true">
+      <Value xsi:type="xsd:boolean">true</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="ContainerInstance.XUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">6</Value>
+    <Variable Type="float" Name="LeftBackground.Width" SetsValue="true">
+      <Value xsi:type="xsd:float">-0</Value>
     </Variable>
-    <Variable Type="float" Name="ContainerInstance.Y" SetsValue="true">
-      <Value xsi:type="xsd:float">86</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="ContainerInstance.YOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="ContainerInstance.YUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="ChildrenLayout" Name="ContainerInstance1.ChildrenLayout" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="float" Name="ContainerInstance1.Height" SetsValue="true">
-      <Value xsi:type="xsd:float">-60</Value>
-    </Variable>
-    <Variable Type="DimensionUnitType" Name="ContainerInstance1.HeightUnits" SetsValue="true">
+    <Variable Type="DimensionUnitType" Name="LeftBackground.WidthUnits" SetsValue="true">
       <Value xsi:type="xsd:int">2</Value>
     </Variable>
-    <Variable Type="string" Name="ContainerInstance1.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">RightSidePanel</Value>
-    </Variable>
-    <Variable Type="float" Name="ContainerInstance1.StackSpacing" SetsValue="true">
-      <Value xsi:type="xsd:float">21</Value>
-    </Variable>
-    <Variable Type="float" Name="ContainerInstance1.Width" SetsValue="true">
-      <Value xsi:type="xsd:float">-60</Value>
-    </Variable>
-    <Variable Type="DimensionUnitType" Name="ContainerInstance1.WidthUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">2</Value>
-    </Variable>
-    <Variable Type="float" Name="ContainerInstance1.X" SetsValue="true">
+    <Variable Type="float" Name="LeftBackground.X" SetsValue="true">
       <Value xsi:type="xsd:float">0</Value>
     </Variable>
-    <Variable Type="HorizontalAlignment" Name="ContainerInstance1.XOrigin" SetsValue="true">
+    <Variable Type="HorizontalAlignment" Name="LeftBackground.XOrigin" SetsValue="true">
       <Value xsi:type="xsd:int">1</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="ContainerInstance1.XUnits" SetsValue="true">
+    <Variable Type="PositionUnitType" Name="LeftBackground.XUnits" SetsValue="true">
       <Value xsi:type="xsd:int">6</Value>
     </Variable>
-    <Variable Type="float" Name="ContainerInstance1.Y" SetsValue="true">
+    <Variable Type="float" Name="LeftBackground.Y" SetsValue="true">
       <Value xsi:type="xsd:float">0</Value>
     </Variable>
-    <Variable Type="VerticalAlignment" Name="ContainerInstance1.YOrigin" SetsValue="true">
+    <Variable Type="VerticalAlignment" Name="LeftBackground.YOrigin" SetsValue="true">
       <Value xsi:type="xsd:int">1</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="ContainerInstance1.YUnits" SetsValue="true">
+    <Variable Type="PositionUnitType" Name="LeftBackground.YUnits" SetsValue="true">
       <Value xsi:type="xsd:int">7</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="LabelInstance.HorizontalAlignment" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="string" Name="LabelInstance.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">ContainerInstance</Value>
-    </Variable>
-    <Variable Type="string" Name="LabelInstance.Text" SetsValue="true">
-      <Value xsi:type="xsd:string">Score</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="LabelInstance.VerticalAlignment" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="float" Name="LabelInstance.X" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="LabelInstance.XOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="LabelInstance.XUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">6</Value>
-    </Variable>
-    <Variable Type="float" Name="LabelInstance.Y" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="LabelInstance.YOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="LabelInstance.YUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="int" Name="LabelInstance1.Blue" SetsValue="true">
-      <Value xsi:type="xsd:int">117</Value>
-    </Variable>
-    <Variable IsFont="true" Type="string" Name="LabelInstance1.Font" SetsValue="true">
-      <Value xsi:type="xsd:string">Nunito</Value>
-    </Variable>
-    <Variable Type="int" Name="LabelInstance1.FontSize" SetsValue="true">
-      <Value xsi:type="xsd:int">44</Value>
-    </Variable>
-    <Variable Type="int" Name="LabelInstance1.Green" SetsValue="true">
-      <Value xsi:type="xsd:int">68</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="LabelInstance1.HorizontalAlignment" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="bool" Name="LabelInstance1.IsBold" SetsValue="true">
-      <Value xsi:type="xsd:boolean">true</Value>
-    </Variable>
-    <Variable Type="bool" Name="LabelInstance1.IsItalic" SetsValue="true">
-      <Value xsi:type="xsd:boolean">false</Value>
-    </Variable>
-    <Variable Type="string" Name="LabelInstance1.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">ContainerInstance</Value>
-    </Variable>
-    <Variable Type="int" Name="LabelInstance1.Red" SetsValue="true">
-      <Value xsi:type="xsd:int">204</Value>
-    </Variable>
-    <Variable Type="string" Name="LabelInstance1.Text" SetsValue="true">
-      <Value xsi:type="xsd:string">999,999</Value>
-    </Variable>
-    <Variable Type="TextCategory" Name="LabelInstance1.TextCategoryState" SetsValue="true">
-      <Value xsi:type="xsd:string">Title</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="LabelInstance1.VerticalAlignment" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="float" Name="LabelInstance1.X" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="LabelInstance1.XOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="LabelInstance1.XUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">6</Value>
-    </Variable>
-    <Variable Type="float" Name="LabelInstance1.Y" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="LabelInstance1.YOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="LabelInstance1.YUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="LabelInstance2.HorizontalAlignment" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="string" Name="LabelInstance2.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">ContainerInstance</Value>
-    </Variable>
-    <Variable Type="string" Name="LabelInstance2.Text" SetsValue="true">
-      <Value xsi:type="xsd:string">{0} per click  {1}/sec auto</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="LabelInstance2.VerticalAlignment" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="float" Name="LabelInstance2.X" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="LabelInstance2.XOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="LabelInstance2.XUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">6</Value>
-    </Variable>
-    <Variable Type="float" Name="LabelInstance2.Y" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="LabelInstance2.YOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="LabelInstance2.YUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
-    </Variable>
-    <Variable Type="int" Name="LabelInstance3.Blue" SetsValue="true">
-      <Value xsi:type="xsd:int">117</Value>
-    </Variable>
-    <Variable IsFont="true" Type="string" Name="LabelInstance3.Font" SetsValue="true">
-      <Value xsi:type="xsd:string">Nunito</Value>
-    </Variable>
-    <Variable Type="int" Name="LabelInstance3.Green" SetsValue="true">
-      <Value xsi:type="xsd:int">68</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="LabelInstance3.HorizontalAlignment" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="bool" Name="LabelInstance3.IsBold" SetsValue="true">
-      <Value xsi:type="xsd:boolean">true</Value>
-    </Variable>
-    <Variable Type="bool" Name="LabelInstance3.IsItalic" SetsValue="true">
-      <Value xsi:type="xsd:boolean">false</Value>
-    </Variable>
-    <Variable Type="string" Name="LabelInstance3.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">ContainerInstance1</Value>
-    </Variable>
-    <Variable Type="int" Name="LabelInstance3.Red" SetsValue="true">
-      <Value xsi:type="xsd:int">204</Value>
-    </Variable>
-    <Variable Type="string" Name="LabelInstance3.Text" SetsValue="true">
-      <Value xsi:type="xsd:string">Upgrades</Value>
-    </Variable>
-    <Variable Type="TextCategory" Name="LabelInstance3.TextCategoryState" SetsValue="true">
-      <Value xsi:type="xsd:string">Title</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="LabelInstance3.VerticalAlignment" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="float" Name="LabelInstance3.X" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="HorizontalAlignment" Name="LabelInstance3.XOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="LabelInstance3.XUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="float" Name="LabelInstance3.Y" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="VerticalAlignment" Name="LabelInstance3.YOrigin" SetsValue="true">
-      <Value xsi:type="xsd:int">0</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="LabelInstance3.YUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">1</Value>
     </Variable>
     <Variable Type="float" Name="LeftSidePanel.Height" SetsValue="true">
       <Value xsi:type="xsd:float">-0</Value>
@@ -425,6 +200,39 @@
       <Value xsi:type="xsd:int">1</Value>
     </Variable>
     <Variable Type="PositionUnitType" Name="LeftSidePanel.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">7</Value>
+    </Variable>
+    <Variable Type="float" Name="RightBackground.Height" SetsValue="true">
+      <Value xsi:type="xsd:float">-0</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="RightBackground.HeightUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="string" Name="RightBackground.Parent" SetsValue="true">
+      <Value xsi:type="xsd:string">RightSidePanel</Value>
+    </Variable>
+    <Variable Type="float" Name="RightBackground.Width" SetsValue="true">
+      <Value xsi:type="xsd:float">-0</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="RightBackground.WidthUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="float" Name="RightBackground.X" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="RightBackground.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="RightBackground.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">6</Value>
+    </Variable>
+    <Variable Type="float" Name="RightBackground.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="RightBackground.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="RightBackground.YUnits" SetsValue="true">
       <Value xsi:type="xsd:int">7</Value>
     </Variable>
     <Variable Type="float" Name="RightSidePanel.Height" SetsValue="true">
@@ -457,83 +265,236 @@
     <Variable Type="PositionUnitType" Name="RightSidePanel.YUnits" SetsValue="true">
       <Value xsi:type="xsd:int">7</Value>
     </Variable>
-    <Variable Type="int" Name="RoundedRectangleInstance.Blue1" SetsValue="true">
-      <Value xsi:type="xsd:int">241</Value>
+    <Variable Type="ChildrenLayout" Name="ScoreContainer.ChildrenLayout" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
     </Variable>
-    <Variable Type="int" Name="RoundedRectangleInstance.Blue2" SetsValue="true">
-      <Value xsi:type="xsd:int">249</Value>
+    <Variable Type="float" Name="ScoreContainer.Height" SetsValue="true">
+      <Value xsi:type="xsd:float">103</Value>
     </Variable>
-    <Variable Type="float" Name="RoundedRectangleInstance.CornerRadius" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="float" Name="RoundedRectangleInstance.GradientX1" SetsValue="true">
-      <Value xsi:type="xsd:float">100</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="RoundedRectangleInstance.GradientX1Units" SetsValue="true">
-      <Value xsi:type="xsd:int">2</Value>
-    </Variable>
-    <Variable Type="float" Name="RoundedRectangleInstance.GradientX2" SetsValue="true">
-      <Value xsi:type="xsd:float">80</Value>
-    </Variable>
-    <Variable Type="PositionUnitType" Name="RoundedRectangleInstance.GradientX2Units" SetsValue="true">
-      <Value xsi:type="xsd:int">2</Value>
-    </Variable>
-    <Variable Type="float" Name="RoundedRectangleInstance.GradientY2" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
-    </Variable>
-    <Variable Type="int" Name="RoundedRectangleInstance.Green1" SetsValue="true">
-      <Value xsi:type="xsd:int">231</Value>
-    </Variable>
-    <Variable Type="int" Name="RoundedRectangleInstance.Green2" SetsValue="true">
-      <Value xsi:type="xsd:int">240</Value>
-    </Variable>
-    <Variable Type="float" Name="RoundedRectangleInstance.Height" SetsValue="true">
-      <Value xsi:type="xsd:float">-0</Value>
-    </Variable>
-    <Variable Type="DimensionUnitType" Name="RoundedRectangleInstance.HeightUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">2</Value>
-    </Variable>
-    <Variable Type="string" Name="RoundedRectangleInstance.Parent" SetsValue="true">
+    <Variable Type="string" Name="ScoreContainer.Parent" SetsValue="true">
       <Value xsi:type="xsd:string">LeftSidePanel</Value>
     </Variable>
-    <Variable Type="int" Name="RoundedRectangleInstance.Red1" SetsValue="true">
-      <Value xsi:type="xsd:int">251</Value>
+    <Variable Type="float" Name="ScoreContainer.Width" SetsValue="true">
+      <Value xsi:type="xsd:float">270</Value>
     </Variable>
-    <Variable Type="int" Name="RoundedRectangleInstance.Red2" SetsValue="true">
-      <Value xsi:type="xsd:int">255</Value>
-    </Variable>
-    <Variable Type="bool" Name="RoundedRectangleInstance.UseGradient" SetsValue="true">
-      <Value xsi:type="xsd:boolean">true</Value>
-    </Variable>
-    <Variable Type="float" Name="RoundedRectangleInstance.Width" SetsValue="true">
-      <Value xsi:type="xsd:float">-0</Value>
-    </Variable>
-    <Variable Type="DimensionUnitType" Name="RoundedRectangleInstance.WidthUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">2</Value>
-    </Variable>
-    <Variable Type="float" Name="RoundedRectangleInstance.X" SetsValue="true">
+    <Variable Type="float" Name="ScoreContainer.X" SetsValue="true">
       <Value xsi:type="xsd:float">0</Value>
     </Variable>
-    <Variable Type="HorizontalAlignment" Name="RoundedRectangleInstance.XOrigin" SetsValue="true">
+    <Variable Type="HorizontalAlignment" Name="ScoreContainer.XOrigin" SetsValue="true">
       <Value xsi:type="xsd:int">1</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="RoundedRectangleInstance.XUnits" SetsValue="true">
+    <Variable Type="PositionUnitType" Name="ScoreContainer.XUnits" SetsValue="true">
       <Value xsi:type="xsd:int">6</Value>
     </Variable>
-    <Variable Type="float" Name="RoundedRectangleInstance.Y" SetsValue="true">
-      <Value xsi:type="xsd:float">0</Value>
+    <Variable Type="float" Name="ScoreContainer.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">86</Value>
     </Variable>
-    <Variable Type="VerticalAlignment" Name="RoundedRectangleInstance.YOrigin" SetsValue="true">
+    <Variable Type="VerticalAlignment" Name="ScoreContainer.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ScoreContainer.YUnits" SetsValue="true">
       <Value xsi:type="xsd:int">1</Value>
     </Variable>
-    <Variable Type="PositionUnitType" Name="RoundedRectangleInstance.YUnits" SetsValue="true">
-      <Value xsi:type="xsd:int">7</Value>
+    <Variable Type="HorizontalAlignment" Name="ScoreLabel.HorizontalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="string" Name="ScoreLabel.Parent" SetsValue="true">
+      <Value xsi:type="xsd:string">ScoreContainer</Value>
+    </Variable>
+    <Variable Type="string" Name="ScoreLabel.Text" SetsValue="true">
+      <Value xsi:type="xsd:string">Score</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="ScoreLabel.VerticalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="ScoreLabel.X" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="ScoreLabel.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ScoreLabel.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">6</Value>
+    </Variable>
+    <Variable Type="float" Name="ScoreLabel.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="ScoreLabel.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ScoreLabel.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="ScoreSubtext.HorizontalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="string" Name="ScoreSubtext.Parent" SetsValue="true">
+      <Value xsi:type="xsd:string">ScoreContainer</Value>
+    </Variable>
+    <Variable Type="string" Name="ScoreSubtext.Text" SetsValue="true">
+      <Value xsi:type="xsd:string">{0} per click  {1}/sec auto</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="ScoreSubtext.VerticalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="ScoreSubtext.X" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="ScoreSubtext.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ScoreSubtext.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">6</Value>
+    </Variable>
+    <Variable Type="float" Name="ScoreSubtext.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="ScoreSubtext.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ScoreSubtext.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="int" Name="ScoreValue.Blue" SetsValue="true">
+      <Value xsi:type="xsd:int">117</Value>
+    </Variable>
+    <Variable IsFont="true" Type="string" Name="ScoreValue.Font" SetsValue="true">
+      <Value xsi:type="xsd:string">Nunito</Value>
+    </Variable>
+    <Variable Type="int" Name="ScoreValue.FontSize" SetsValue="true">
+      <Value xsi:type="xsd:int">44</Value>
+    </Variable>
+    <Variable Type="int" Name="ScoreValue.Green" SetsValue="true">
+      <Value xsi:type="xsd:int">68</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="ScoreValue.HorizontalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="bool" Name="ScoreValue.IsBold" SetsValue="true">
+      <Value xsi:type="xsd:boolean">true</Value>
+    </Variable>
+    <Variable Type="bool" Name="ScoreValue.IsItalic" SetsValue="true">
+      <Value xsi:type="xsd:boolean">false</Value>
+    </Variable>
+    <Variable Type="string" Name="ScoreValue.Parent" SetsValue="true">
+      <Value xsi:type="xsd:string">ScoreContainer</Value>
+    </Variable>
+    <Variable Type="int" Name="ScoreValue.Red" SetsValue="true">
+      <Value xsi:type="xsd:int">204</Value>
+    </Variable>
+    <Variable Type="string" Name="ScoreValue.Text" SetsValue="true">
+      <Value xsi:type="xsd:string">999,999</Value>
+    </Variable>
+    <Variable Type="TextCategory" Name="ScoreValue.TextCategoryState" SetsValue="true">
+      <Value xsi:type="xsd:string">Title</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="ScoreValue.VerticalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="ScoreValue.X" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="ScoreValue.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ScoreValue.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">6</Value>
+    </Variable>
+    <Variable Type="float" Name="ScoreValue.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="ScoreValue.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ScoreValue.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="int" Name="Separator.Blue" SetsValue="true">
+      <Value xsi:type="xsd:int">204</Value>
+    </Variable>
+    <Variable Type="int" Name="Separator.Green" SetsValue="true">
+      <Value xsi:type="xsd:int">170</Value>
+    </Variable>
+    <Variable Type="float" Name="Separator.Height" SetsValue="true">
+      <Value xsi:type="xsd:float">2</Value>
+    </Variable>
+    <Variable Type="string" Name="Separator.Parent" SetsValue="true">
+      <Value xsi:type="xsd:string">UpgradeStack</Value>
+    </Variable>
+    <Variable Type="int" Name="Separator.Red" SetsValue="true">
+      <Value xsi:type="xsd:int">240</Value>
+    </Variable>
+    <Variable Type="float" Name="Separator.Width" SetsValue="true">
+      <Value xsi:type="xsd:float">-0</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="Separator.WidthUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="float" Name="Separator.X" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="Separator.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="Separator.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">6</Value>
+    </Variable>
+    <Variable Type="int" Name="ShopHeader.Blue" SetsValue="true">
+      <Value xsi:type="xsd:int">117</Value>
+    </Variable>
+    <Variable IsFont="true" Type="string" Name="ShopHeader.Font" SetsValue="true">
+      <Value xsi:type="xsd:string">Nunito</Value>
+    </Variable>
+    <Variable Type="int" Name="ShopHeader.Green" SetsValue="true">
+      <Value xsi:type="xsd:int">68</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="ShopHeader.HorizontalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="bool" Name="ShopHeader.IsBold" SetsValue="true">
+      <Value xsi:type="xsd:boolean">true</Value>
+    </Variable>
+    <Variable Type="bool" Name="ShopHeader.IsItalic" SetsValue="true">
+      <Value xsi:type="xsd:boolean">false</Value>
+    </Variable>
+    <Variable Type="string" Name="ShopHeader.Parent" SetsValue="true">
+      <Value xsi:type="xsd:string">UpgradeStack</Value>
+    </Variable>
+    <Variable Type="int" Name="ShopHeader.Red" SetsValue="true">
+      <Value xsi:type="xsd:int">204</Value>
+    </Variable>
+    <Variable Type="string" Name="ShopHeader.Text" SetsValue="true">
+      <Value xsi:type="xsd:string">Upgrades</Value>
+    </Variable>
+    <Variable Type="TextCategory" Name="ShopHeader.TextCategoryState" SetsValue="true">
+      <Value xsi:type="xsd:string">Title</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="ShopHeader.VerticalAlignment" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="ShopHeader.X" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="ShopHeader.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ShopHeader.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="float" Name="ShopHeader.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="ShopHeader.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">0</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="ShopHeader.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
     </Variable>
     <Variable Type="string" Name="UpgradeClickButton.CostText" SetsValue="true">
       <Value xsi:type="xsd:string">Cost: 10</Value>
     </Variable>
     <Variable Type="string" Name="UpgradeClickButton.Parent" SetsValue="true">
-      <Value xsi:type="xsd:string">ContainerInstance1</Value>
+      <Value xsi:type="xsd:string">UpgradeStack</Value>
     </Variable>
     <Variable Type="string" Name="UpgradeClickButton.SubText" SetsValue="true">
       <Value xsi:type="xsd:string">+ 1 per click</Value>
@@ -556,9 +517,48 @@
     <Variable Type="PositionUnitType" Name="UpgradeClickButton.XUnits" SetsValue="true">
       <Value xsi:type="xsd:int">6</Value>
     </Variable>
+    <Variable Type="ChildrenLayout" Name="UpgradeStack.ChildrenLayout" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="float" Name="UpgradeStack.Height" SetsValue="true">
+      <Value xsi:type="xsd:float">-60</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="UpgradeStack.HeightUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="string" Name="UpgradeStack.Parent" SetsValue="true">
+      <Value xsi:type="xsd:string">RightSidePanel</Value>
+    </Variable>
+    <Variable Type="float" Name="UpgradeStack.StackSpacing" SetsValue="true">
+      <Value xsi:type="xsd:float">21</Value>
+    </Variable>
+    <Variable Type="float" Name="UpgradeStack.Width" SetsValue="true">
+      <Value xsi:type="xsd:float">-60</Value>
+    </Variable>
+    <Variable Type="DimensionUnitType" Name="UpgradeStack.WidthUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">2</Value>
+    </Variable>
+    <Variable Type="float" Name="UpgradeStack.X" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="HorizontalAlignment" Name="UpgradeStack.XOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="UpgradeStack.XUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">6</Value>
+    </Variable>
+    <Variable Type="float" Name="UpgradeStack.Y" SetsValue="true">
+      <Value xsi:type="xsd:float">0</Value>
+    </Variable>
+    <Variable Type="VerticalAlignment" Name="UpgradeStack.YOrigin" SetsValue="true">
+      <Value xsi:type="xsd:int">1</Value>
+    </Variable>
+    <Variable Type="PositionUnitType" Name="UpgradeStack.YUnits" SetsValue="true">
+      <Value xsi:type="xsd:int">7</Value>
+    </Variable>
     <VariableList xsi:type="VariableListSaveOfString">
       <Type>string</Type>
-      <Name>LabelInstance1.VariableReferences</Name>
+      <Name>ScoreValue.VariableReferences</Name>
       <IsFile>false</IsFile>
       <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
       <Value>
@@ -569,7 +569,7 @@
     </VariableList>
     <VariableList xsi:type="VariableListSaveOfString">
       <Type>string</Type>
-      <Name>LabelInstance3.VariableReferences</Name>
+      <Name>ShopHeader.VariableReferences</Name>
       <IsFile>false</IsFile>
       <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
       <Value>
@@ -579,19 +579,19 @@
       </Value>
     </VariableList>
   </State>
-  <Instance Name="ColoredRectangleInstance1" BaseType="ColoredRectangle" />
-  <Instance Name="LabelInstance3" BaseType="BubbleGumTheme/Controls/Label" />
-  <Instance Name="ColoredRectangleInstance" BaseType="ColoredRectangle" />
+  <Instance Name="RightBackground" BaseType="ColoredRectangle" />
+  <Instance Name="ShopHeader" BaseType="BubbleGumTheme/Controls/Label" />
+  <Instance Name="Separator" BaseType="ColoredRectangle" />
   <Instance Name="UpgradeClickButton" BaseType="UpgradeButton" />
   <Instance Name="AutoClickButton" BaseType="UpgradeButton" />
-  <Instance Name="LabelInstance" BaseType="BubbleGumTheme/Controls/Label" />
-  <Instance Name="ContainerInstance1" BaseType="Container" />
-  <Instance Name="RoundedRectangleInstance" BaseType="RoundedRectangle" />
-  <Instance Name="ColoredRectangleInstance2" BaseType="ColoredRectangle" />
-  <Instance Name="ButtonInstance" BaseType="BubbleGumTheme/Controls/Button" />
-  <Instance Name="LabelInstance1" BaseType="BubbleGumTheme/Controls/Label" />
-  <Instance Name="LabelInstance2" BaseType="BubbleGumTheme/Controls/Label" />
-  <Instance Name="ContainerInstance" BaseType="Container" />
+  <Instance Name="ScoreLabel" BaseType="BubbleGumTheme/Controls/Label" />
+  <Instance Name="UpgradeStack" BaseType="Container" />
+  <Instance Name="LeftBackground" BaseType="RoundedRectangle" />
+  <Instance Name="Divider" BaseType="ColoredRectangle" />
+  <Instance Name="BigButton" BaseType="BubbleGumTheme/Controls/Button" />
+  <Instance Name="ScoreValue" BaseType="BubbleGumTheme/Controls/Label" />
+  <Instance Name="ScoreSubtext" BaseType="BubbleGumTheme/Controls/Label" />
+  <Instance Name="ScoreContainer" BaseType="Container" />
   <Instance Name="LeftSidePanel" BaseType="Container" Locked="true" />
   <Instance Name="RightSidePanel" BaseType="Container" Locked="true" />
   <Behaviors />

@@ -38,19 +38,19 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
             return gue;
         });
     }
-    public ColoredRectangleRuntime ColoredRectangleInstance1 { get; protected set; }
-    public Label LabelInstance3 { get; protected set; }
-    public ColoredRectangleRuntime ColoredRectangleInstance { get; protected set; }
+    public ColoredRectangleRuntime RightBackground { get; protected set; }
+    public Label ShopHeader { get; protected set; }
+    public ColoredRectangleRuntime Separator { get; protected set; }
     public UpgradeButton UpgradeClickButton { get; protected set; }
     public UpgradeButton AutoClickButton { get; protected set; }
-    public Label LabelInstance { get; protected set; }
-    public ContainerRuntime ContainerInstance1 { get; protected set; }
-    public RoundedRectangleRuntime RoundedRectangleInstance { get; protected set; }
-    public ColoredRectangleRuntime ColoredRectangleInstance2 { get; protected set; }
-    public Button ButtonInstance { get; protected set; }
-    public Label LabelInstance1 { get; protected set; }
-    public Label LabelInstance2 { get; protected set; }
-    public ContainerRuntime ContainerInstance { get; protected set; }
+    public Label ScoreLabel { get; protected set; }
+    public ContainerRuntime UpgradeStack { get; protected set; }
+    public RoundedRectangleRuntime LeftBackground { get; protected set; }
+    public ColoredRectangleRuntime Divider { get; protected set; }
+    public Button BigButton { get; protected set; }
+    public Label ScoreValue { get; protected set; }
+    public Label ScoreSubtext { get; protected set; }
+    public ContainerRuntime ScoreContainer { get; protected set; }
     public ContainerRuntime LeftSidePanel { get; protected set; }
     public ContainerRuntime RightSidePanel { get; protected set; }
 
@@ -66,19 +66,19 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     protected override void ReactToVisualChanged()
     {
         base.ReactToVisualChanged();
-        ColoredRectangleInstance1 = this.Visual?.GetGraphicalUiElementByName("ColoredRectangleInstance1") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
-        LabelInstance3 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance3");
-        ColoredRectangleInstance = this.Visual?.GetGraphicalUiElementByName("ColoredRectangleInstance") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
+        RightBackground = this.Visual?.GetGraphicalUiElementByName("RightBackground") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
+        ShopHeader = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"ShopHeader");
+        Separator = this.Visual?.GetGraphicalUiElementByName("Separator") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
         UpgradeClickButton = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<UpgradeButton>(this.Visual,"UpgradeClickButton");
         AutoClickButton = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<UpgradeButton>(this.Visual,"AutoClickButton");
-        LabelInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance");
-        ContainerInstance1 = this.Visual?.GetGraphicalUiElementByName("ContainerInstance1") as global::MonoGameGum.GueDeriving.ContainerRuntime;
-        RoundedRectangleInstance = this.Visual?.GetGraphicalUiElementByName("RoundedRectangleInstance") as global::MonoGameGum.GueDeriving.RoundedRectangleRuntime;
-        ColoredRectangleInstance2 = this.Visual?.GetGraphicalUiElementByName("ColoredRectangleInstance2") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
-        ButtonInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Button>(this.Visual,"ButtonInstance");
-        LabelInstance1 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance1");
-        LabelInstance2 = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"LabelInstance2");
-        ContainerInstance = this.Visual?.GetGraphicalUiElementByName("ContainerInstance") as global::MonoGameGum.GueDeriving.ContainerRuntime;
+        ScoreLabel = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"ScoreLabel");
+        UpgradeStack = this.Visual?.GetGraphicalUiElementByName("UpgradeStack") as global::MonoGameGum.GueDeriving.ContainerRuntime;
+        LeftBackground = this.Visual?.GetGraphicalUiElementByName("LeftBackground") as global::MonoGameGum.GueDeriving.RoundedRectangleRuntime;
+        Divider = this.Visual?.GetGraphicalUiElementByName("Divider") as global::MonoGameGum.GueDeriving.ColoredRectangleRuntime;
+        BigButton = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Button>(this.Visual,"BigButton");
+        ScoreValue = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"ScoreValue");
+        ScoreSubtext = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"ScoreSubtext");
+        ScoreContainer = this.Visual?.GetGraphicalUiElementByName("ScoreContainer") as global::MonoGameGum.GueDeriving.ContainerRuntime;
         LeftSidePanel = this.Visual?.GetGraphicalUiElementByName("LeftSidePanel") as global::MonoGameGum.GueDeriving.ContainerRuntime;
         RightSidePanel = this.Visual?.GetGraphicalUiElementByName("RightSidePanel") as global::MonoGameGum.GueDeriving.ContainerRuntime;
         CustomInitialize();

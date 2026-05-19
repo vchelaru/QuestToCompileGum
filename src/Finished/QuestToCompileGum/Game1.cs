@@ -34,18 +34,21 @@ public class Game1 : Game
         GumUI.CanvasHeight = Window.ClientBounds.Height;
     }
 
+    MainScreen mainScreen;
+
     protected override void Initialize()
     {
         base.Initialize();
         GumUI.Initialize(this, "GumProject/GumProject.gumx");
         ShapeRenderer.Self.Initialize();
-        MainScreen mainScreen = new();
+        mainScreen = new MainScreen();
         mainScreen.AddToRoot();
     }
 
     protected override void Update(GameTime gameTime)
     {
         GumUI.Update(gameTime);
+        mainScreen?.Update(gameTime);
         base.Update(gameTime);
     }
 
