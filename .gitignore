@@ -1,5 +1,5 @@
 .vs/
 [Bb]in/
 [Oo]bj/
-src/Starting/QuestToCompileGum/Content/GumProject/EventExport/gum_events.json
-src/Finished/QuestToCompileGum/Content/GumProject/GumProject.user.setj
+**/gum_events.json
+**/*.user.setj

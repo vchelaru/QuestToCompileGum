@@ -5,6 +5,7 @@
       "Components",
       "Components/BubbleGumTheme",
       "Components/BubbleGumTheme/Controls",
+      "Components/BubbleGumTheme/Controls/Button",
       "Components/BubbleGumTheme/Controls/CheckBox",
       "Standard"
     ]

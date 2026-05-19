@@ -6,6 +6,7 @@ using Gum.Wireframe;
 using GumRuntime;
 using MonoGameGum;
 using MonoGameGum.GueDeriving;
+using QuestToCompileGum.Components.BubbleGumTheme.Controls;
 using RenderingLibrary.Graphics;
 using System.Linq;
 namespace QuestToCompileGum.Components;
