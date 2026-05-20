@@ -7,13 +7,12 @@ using RenderingLibrary.Graphics;
 
 using System.Linq;
 
-namespace QuestToCompileGum.Screens
+namespace QuestToCompileGum.Screens;
+
+partial class MainScreen
 {
-    partial class MainScreen
+    partial void CustomInitialize()
     {
-        partial void CustomInitialize()
-        {
-        
-        }
+    
     }
 }

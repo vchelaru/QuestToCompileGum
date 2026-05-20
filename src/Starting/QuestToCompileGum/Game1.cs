@@ -16,6 +16,7 @@ public class Game1 : Game
 {
     GraphicsDeviceManager graphics;
     GumService GumUI => GumService.Default;
+    MainScreen mainScreen;
 
     public Game1()
     {
@@ -29,9 +30,12 @@ public class Game1 : Game
     protected override void Initialize()
     {
         base.Initialize();
+
         GumUI.Initialize(this, "GumProject/GumProject.gumx");
+        GumUI.EnableExpandToWindow();
         ShapeRenderer.Self.Initialize();
-        MainScreen mainScreen = new();
+
+        mainScreen = new();
         mainScreen.AddToRoot();
     }
 
