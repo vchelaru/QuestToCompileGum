@@ -14,6 +14,8 @@ namespace QuestToCompileGum.Screens
 
         List<FloatingLabel> _floatingLabels = new();
 
+        GumService GumUi => GumService.Default;
+
         partial void CustomInitialize()
         {
             BigButton.Click += HandleBigButtonClick;
@@ -29,10 +31,12 @@ namespace QuestToCompileGum.Screens
             UpdateUI();
 
             // Not yet ready for this:
-            //FloatingLabel label = new();
-            //label.Text = "Hello";
-            //label.AddToRoot();
-            //_floatingLabels.Add(label);
+            FloatingLabel label = new();
+            label.X = GumUi.Cursor.XRespectingGumZoomAndBounds();
+            label.Y = GumUi.Cursor.YRespectingGumZoomAndBounds();
+            label.Text = $"+{_state.ClickPower}";
+            label.AddToRoot();
+            _floatingLabels.Add(label);
         }
 
         public void Update(GameTime gameTime)
