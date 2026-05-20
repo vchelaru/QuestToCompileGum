@@ -25,13 +25,6 @@ public class Game1 : Game
         IsMouseVisible = true;
         Window.AllowUserResizing = true;
 
-        Window.ClientSizeChanged += HandleWindowSizeChanged;
-    }
-
-    private void HandleWindowSizeChanged(object sender, EventArgs e)
-    {
-        GumUI.CanvasWidth = Window.ClientBounds.Width;
-        GumUI.CanvasHeight = Window.ClientBounds.Height;
     }
 
     MainScreen mainScreen;
@@ -41,6 +34,8 @@ public class Game1 : Game
         base.Initialize();
         GumUI.Initialize(this, "GumProject/GumProject.gumx");
         ShapeRenderer.Self.Initialize();
+        GumUI.EnableExpandToWindow();
+
         mainScreen = new MainScreen();
         mainScreen.AddToRoot();
     }
