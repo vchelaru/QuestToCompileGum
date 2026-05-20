@@ -9,11 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Gum.Shapes.MonoGame" Version="2026.5.18.2-preview.2" />
+    <PackageReference Include="Gum.Shapes.MonoGame" Version="2026.5.20.2-preview.4" />
     <PackageReference Include="KernSmith.MonoGameGum" Version="0.13.0" />
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.4.1" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.4.1" />
-    <PackageReference Include="Gum.MonoGame" Version="2026.5.18.2-preview.2" />
+    <PackageReference Include="Gum.MonoGame" Version="2026.5.20.2-preview.4" />
   </ItemGroup>
 
   <ItemGroup>
